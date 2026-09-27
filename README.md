@@ -1,11 +1,14 @@
-# CSI Sensing Engine v3
+# WiFi CSI Sensing · Engine v3
 
 A modular WiFi Channel State Information (CSI) sensing system for the ESP32.
 Detects presence, motion, and micro-motion (breathing-band) in an environment
 by analyzing how WiFi signals are perturbed by bodies in the space.
+No camera, no wearable.
 
-This is a full rebuild of the original two-file prototype into a proper
-signal-processing + machine-learning pipeline.
+**Build video:** [WiFi sensing on an ESP32](https://youtu.be/Qr2lyrrXwPI)
+
+This is a full rebuild of the original two-file prototype, which is kept in
+[`v1-prototype`](v1-prototype), into a proper signal-processing + machine-learning pipeline.
 
 ---
 
@@ -135,3 +138,9 @@ with a clean architecture ready to scale when you add nodes.
 Legitimate uses: occupancy sensing, smart-home automation, elderly fall/inactivity
 monitoring, presence-aware energy control, and research/education. Deploy it on
 spaces you own or have permission to monitor.
+
+---
+
+## License
+
+MIT. See [LICENSE](LICENSE).
